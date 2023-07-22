@@ -14,6 +14,7 @@ git clone <repo-link>
 - Do the changes and save and then type a commit message to identify the change done by you.
 - Push the changes then in the github repo.
 - Finally after these steps successfully executed, you will get a contribution in your profile page.
+  All The Best
 
 - Open **index.html** for adding any additional informational or in order to contribute.
 
