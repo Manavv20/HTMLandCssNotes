@@ -1,28 +1,37 @@
-
-
-
 **CodingNinjasCodes** is an open-source repository that is created to provide open-source free code for the people or those who want to contribute or learn.
 
+### Steps for Contributing:
+
 - First clone download from the repository named **HTMLandCSSNotes**.
- 
+  You can type the following command in the terminal or cmd.
+
+```shell
+git clone <repo-link>
+```
+
+- Fork the repo to your list of repos.
+- Open the clone project on your vs code or any other editor.
+- Do the changes and save and then type a commit message to identify the change done by you.
+- Push the changes then in the github repo.
+- Finally after these steps successfully executed, you will get a contribution in your profile page.
+
 - Open **index.html** for adding any additional informational or in order to contribute.
 
 - To add a new tab apart from the given tabs, add the following..
-  ..* <li onclick="openPage(event, 'tab_name')"><a href="javascript:void(0)" class="tablinks">tab-Name</a></li>
+  ..\* <li onclick="openPage(event, 'tab_name')"><a href="javascript:void(0)" class="tablinks">tab-Name</a></li>
   - add this line on the top of the index.html inside the <ul> tag after all the <li> tags inside the closing </ul> tag.
 
- ..* After that add a new **<div>** element and give it an id of same as the 'tabname' as mentioned above in the li tag and also give it a class name of "tabcontent".
+..\* After that add a new **<div>** element and give it an id of same as the 'tabname' as mentioned above in the li tag and also give it a class name of "tabcontent".
 
- - Inside this <div> element add a new <h3> tag and give it a class of "heading".
+- Inside this <div> element add a new <h3> tag and give it a class of "heading".
 
- - Inside that <h3> element give the name of the main-heading which you want to give.
+- Inside that <h3> element give the name of the main-heading which you want to give.
 
- - After that add a new <div> element and give it a class of "content".
+- After that add a new <div> element and give it a class of "content".
 
- - Inside this content class div you can write the necessary information you want to provide in it.
+- Inside this content class div you can write the necessary information you want to provide in it.
 
- - So now, in order to add the necessary information you can use the following classes that are mentioned below...
-
+- So now, in order to add the necessary information you can use the following classes that are mentioned below...
 
 **class="explanationText"**-To add any information,text, paragraph include this class in the relevant HTML tag.
 
@@ -36,12 +45,11 @@
 
 **class="explanationImage"**-To add any additional image to our HTML file must include this class.
 
-
 All these classes must be applied in the **index.html** file.
 
-*To change the given layout, colors, any other kind of style open **base.css**
+\*To change the given layout, colors, any other kind of style open **base.css**
 
-*In order to change any of the layouts or styles you can manipulate the CSS of the following classes...
+\*In order to change any of the layouts or styles you can manipulate the CSS of the following classes...
 
 **class="tabcontent"**-To style the tab content.
 
@@ -62,11 +70,3 @@ All these classes must be applied in the **index.html** file.
 **class="code-class"** includes the layout of the code that lies inside the **<xmp>** tag and given a class name of "code".
 
 All these changes should be done inside the **base.css** file.
-
-
-
-
-
-
-
-
